@@ -48,6 +48,8 @@ driver.navigate().back();
         driver.navigate().forward();// move forward in amazon history
         Thread.sleep(3000);// for demo , waite 3 seconds
         // again go back to amazon
+        System.out.println("URL ----"+  driver.getCurrentUrl());
+     // get current URL address
 driver.navigate().refresh();
         Thread.sleep(3000);// for demo , waite 3 seconds
         System.out.println("Title = "+driver.getTitle());
