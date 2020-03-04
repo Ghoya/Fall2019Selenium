@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class BasicNavigation {
-    public static void main(String[] args) {
+    public static void main (String[] args)throws Exception {
 // to start selenium script we need:
         // setup webdriver( browser driver) and create web driver object
         WebDriverManager.chromedriver().setup();//
@@ -16,6 +16,7 @@ public class BasicNavigation {
         WebDriver driver= new ChromeDriver();// we will use Chrom
 // in Selenium every thing began with WebDriver interface
         driver.get("http://google.com"); // to open a webside
-
+        Thread.sleep(3000);// for demo , waite 3 seconds
+driver.close();
     }
 }
