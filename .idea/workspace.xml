@@ -52,7 +52,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindElementsByID">
+  <component name="RunManager" selected="Application.RadioButtons">
     <configuration name="FindElementPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.automation.tests.day3.FindElementPractice" />
       <module name="Fall2019Selenium" />
@@ -105,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JumpToTheNewWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day2.JumpToTheNewWindow" />
+    <configuration name="RadioButtons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day5.RadioButtons" />
       <module name="Fall2019Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.automation.tests.day2.*" />
+          <option name="PATTERN" value="com.automation.tests.day5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RadioButtons" />
         <item itemvalue="Application.FindElementsByID" />
         <item itemvalue="Application.FindElementPractice" />
         <item itemvalue="Application.GoogleSearchTest" />
         <item itemvalue="Application.FindElementsTest" />
-        <item itemvalue="Application.JumpToTheNewWindow" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583598081917</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="created basic navigation class">
+      <created>1583598878215</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1583598878215</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

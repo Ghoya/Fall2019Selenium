@@ -18,11 +18,23 @@ driver.manage().window().maximize();
         BrowserUtils.wait(2);
      //<input type="radio">
         List<WebElement> radioButtons=driver.findElements(By.tagName("input"));
-        for (WebElement radioButton:radioButtons) {
-          radioButton.click();
-          BrowserUtils.wait(3);
-        }
 
+        for (WebElement radioButton:radioButtons) {
+            // to chech if button is clickable
+             // <input type="radio" id="blue" name="color"
+            String id = radioButton.getAttribute("id");
+            // if buttoon is eligible to click
+            // returns true of you can click in the button
+            if (radioButton.isEnabled()) {
+                radioButton.click();
+                System.out.println("Clicked on : " + radioButton.getAttribute("id"));
+                BrowserUtils.wait(1);
+            }else{
+                System.out.println("Button is dinabled , not clicked : "+ id);
+            }
+
+        }
+driver.quit();
     }
 
 }
