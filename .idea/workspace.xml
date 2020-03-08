@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cce05ca-7d2f-4458-be0a-c48527efd265" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day5/CheckBoxes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day5/FileUpLoading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day5/RadioButtonsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day5/TestForiFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day5/checkBoxTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day5/nestedFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day6/selectByText.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/tests/day5/RadioButtons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day5/RadioButtons.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,52 +58,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RadioButtons">
-    <configuration name="FindElementPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day3.FindElementPractice" />
-      <module name="Fall2019Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.automation.tests.day3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.selectByText">
     <configuration name="FindElementsByID" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.automation.tests.day3.FindElementsByID" />
       <module name="Fall2019Selenium" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.automation.tests.day3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindElementsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day4.FindElementsTest" />
-      <module name="Fall2019Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.automation.tests.day4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GoogleSearchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day2.GoogleSearchTest" />
-      <module name="Fall2019Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.automation.tests.day2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,13 +85,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestForiFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day5.TestForiFrame" />
+      <module name="Fall2019Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.tests.day5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="checkBoxTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day5.checkBoxTest" />
+      <module name="Fall2019Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.tests.day5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="selectByText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day6.selectByText" />
+      <module name="Fall2019Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.tests.day6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.selectByText" />
+        <item itemvalue="Application.TestForiFrame" />
+        <item itemvalue="Application.checkBoxTest" />
         <item itemvalue="Application.RadioButtons" />
         <item itemvalue="Application.FindElementsByID" />
-        <item itemvalue="Application.FindElementPractice" />
-        <item itemvalue="Application.GoogleSearchTest" />
-        <item itemvalue="Application.FindElementsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583598878215</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="created basic navigation class">
+      <created>1583600199296</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1583600199296</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
