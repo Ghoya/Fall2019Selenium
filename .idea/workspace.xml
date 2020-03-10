@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cce05ca-7d2f-4458-be0a-c48527efd265" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day5/CheckBoxes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day5/FileUpLoading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day5/RadioButtonsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day5/TestForiFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day5/checkBoxTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day5/nestedFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day6/selectByText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day6/Alerts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day6/NoSelectDropDowns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day6/selectByValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day6/selectMultyOption.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,13 +55,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.selectByText">
-    <configuration name="FindElementsByID" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day3.FindElementsByID" />
+  <component name="RunManager" selected="Application.Alerts">
+    <configuration name="Alerts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day6.Alerts" />
       <module name="Fall2019Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.automation.tests.day3.*" />
+          <option name="PATTERN" value="com.automation.tests.day6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,38 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioButtons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day5.RadioButtons" />
+    <configuration name="NoSelectDropDowns" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day6.NoSelectDropDowns" />
       <module name="Fall2019Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.automation.tests.day5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestForiFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day5.TestForiFrame" />
-      <module name="Fall2019Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.automation.tests.day5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="checkBoxTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day5.checkBoxTest" />
-      <module name="Fall2019Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.automation.tests.day5.*" />
+          <option name="PATTERN" value="com.automation.tests.day6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,13 +95,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="selectByValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day6.selectByValue" />
+      <module name="Fall2019Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.tests.day6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="selectMultyOption" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day6.selectMultyOption" />
+      <module name="Fall2019Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.tests.day6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Alerts" />
+        <item itemvalue="Application.selectByValue" />
+        <item itemvalue="Application.NoSelectDropDowns" />
+        <item itemvalue="Application.selectMultyOption" />
         <item itemvalue="Application.selectByText" />
-        <item itemvalue="Application.TestForiFrame" />
-        <item itemvalue="Application.checkBoxTest" />
-        <item itemvalue="Application.RadioButtons" />
-        <item itemvalue="Application.FindElementsByID" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583600199296</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="created basic navigation class">
+      <created>1583685662866</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1583685662866</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
