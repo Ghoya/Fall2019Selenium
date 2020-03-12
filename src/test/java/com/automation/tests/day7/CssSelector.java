@@ -16,7 +16,7 @@ public class CssSelector {
         WebElement button1 = driver.findElement(By.cssSelector("[onclick='button1()']"));
         button1.click();
         BrowserUtils.wait(2);
-        WebElement button2 = driver.findElement(By.cssSelector("[name='button2()']"));
+        WebElement button2 = driver.findElement(By.cssSelector("[name='button2']"));
         button2.click();
         BrowserUtils.wait(2);
         WebElement button3 = driver.findElement(By.cssSelector("[id^='button_']"));
@@ -25,7 +25,7 @@ public class CssSelector {
  WebElement button4 = driver.findElement(By.cssSelector("[onclick='button4()']"));
         button4.click();
         BrowserUtils.wait(2);
-        WebElement button5 = driver.findElement(By.cssSelector("[name='button5()']"));
+        WebElement button5 = driver.findElement(By.cssSelector("[onclick='button5()']"));
         button5.click();
         BrowserUtils.wait(2);
         WebElement button6 = driver.findElement(By.cssSelector("#disappearing_button"));
