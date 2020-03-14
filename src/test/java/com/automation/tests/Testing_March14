@@ -1,0 +1,12 @@
+March 14,2020
+Agenda:Testing
+Level of Testing:
+Unit testing
+integration testing
+system testing
+UAT testing
+
+Unit testing - testing of smallest functional piece of the application . For example :
+method or class....
+In my project devs were following this flow:
+dovs write a code--> unit tests to tewst their cade --> code review-->new build

@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cce05ca-7d2f-4458-be0a-c48527efd265" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/Testing_March14" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day8/BasicTestNGTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day8/SearchTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day8/UnitTestPractice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/tests/day7/CssSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day7/CssSelector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +75,7 @@
       <module name="Fall2019Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.automation.tests.day7.*" />
+          <option name="PATTERN" value="com.automation.tests.day8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,7 +101,7 @@
       <module name="Fall2019Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.automation.tests.day7.*" />
+          <option name="PATTERN" value="com.automation.tests.day8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -300,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584024996850</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="created basic navigation class">
+      <created>1584025563364</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1584025563364</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
