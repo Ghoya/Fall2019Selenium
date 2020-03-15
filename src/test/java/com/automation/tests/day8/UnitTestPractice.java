@@ -1,5 +1,6 @@
 package com.automation.tests.day8;
 
+import org.junit.Test;
 import sun.jvm.hotspot.utilities.Assert;
 
 public class UnitTestPractice {

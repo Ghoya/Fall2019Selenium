@@ -1,22 +1,24 @@
 package com.automation.tests.day8;
-import org.testng.*;
-import sun.jvm.hotspot.utilities.Assert;
+import org.testng.Assert;
 import  org.testng.annotations.*;
 public class BasicTestNGTest {
- // runs anly once in the class before @beforemethod and before test
+ // runs only once in the class before @beforeClass and @beforeMethod
 
 
-  // runs before every test automatically
+
+
+    // runs before every test automatically
   // works as a pre-condition or setup
 
 
-
+@Test
   public void test1(){
       System.out.println("Test1");
       String expected="apple";
       String actual="apple";
       Assert.assertEquals(actual,expected);
   }
+    @Test
 public   void test2(){
     System.out.println("Test2");
       int num1=5;
