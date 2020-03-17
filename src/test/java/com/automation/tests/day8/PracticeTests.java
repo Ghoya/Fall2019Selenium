@@ -29,7 +29,7 @@ import java.util.List;
 public class PracticeTests {
     private WebDriver driver;
 // we put @Test annotation to make methods executable as tests
-    @Test//create a test called loginTest
+ /*   @Test//create a test called loginTest
     public void logInTest() {
         //go to "Form Authentication" page
         driver.findElement(By.linkText("Form Authentication")).click();
@@ -59,10 +59,10 @@ driver.findElement(By.className("email")).sendKeys("cybertek@gmail.com",Keys.ENT
     public void CheckBoxesTest () {
      driver.findElement(By.linkText("Checkboxes")).click();;
         BrowserUtils.wait(3);
-        List<WebElement> checkBoxes= driver.findElement(By.tagName("input"));
+   //     List<WebElement> checkBoxes= driver.findElement(By.tagName("input"));
         BrowserUtils.wait(3);
-        checkBoxes.get(0).click();
-        Assert.assertTrue(checkBoxes.get(0).isSelected(),"checkbox 1 is not slected");
+   ///     checkBoxes.get(0).click();
+  //      Assert.assertTrue(checkBoxes.get(0).isSelected(),"checkbox 1 is not slected");
 
     }
 
@@ -91,5 +91,5 @@ driver.findElement(By.className("email")).sendKeys("cybertek@gmail.com",Keys.ENT
 
 
     }
-
+*/
 }

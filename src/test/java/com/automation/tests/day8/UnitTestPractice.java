@@ -1,34 +1,31 @@
 package com.automation.tests.day8;
-
-import org.junit.Test;
-import sun.jvm.hotspot.utilities.Assert;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
 public class UnitTestPractice {
     public static void main(String[] args) {
   // unit test
   // to check if our method works properly
-  // if assertiion fails that means our method doesn't work correctly
-  // that meams we have to fix the method
-
+  // if assertion fails that means our method doesn't work correctly
+  // that means we have to fix the method
         String expected = "cba";
-        String toReverce = "abc";
-        String actual = reverseString(toReverce);
+        String toReverse = "abc";
+        String actual = reverseString(toReverse);
        // Assertion
       verifyEquals(expected,actual) ;
-
     }
   // annotation
   //description - is not working for unit , make sure that you use testng
-  @Test(description="Verify if method can reverse a string")
-public void test(){
+ @Test(description ="verify two Strings equilization")
+public void test1(){
    String expected= "elpp";
    String actual=reverseString("apple");
    // it is coming from testng , junit also has this class
       // you can compare any data types here: strings , primitives arrays, objects
       // to verify if expected result is equals to actual
-      Assert.assertEquals(expected,actual);
-
+     Assert.assertEquals(expected,actual);
     }
+   @ Test(description = "test if the method can reverse any String ")
     public void test2(){
     String expected="rac";
         String actual=reverseString("car");

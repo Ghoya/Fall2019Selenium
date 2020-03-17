@@ -18,7 +18,7 @@ import java.util.Collection;
 import java.util.List;
 
 public class SearchTests {
-  private WebDriver driver;
+/*  private WebDriver driver;
 
   @Test
   public void googleSearchTest() {
@@ -49,7 +49,7 @@ public class SearchTests {
    * And user clicks on the first search item
    * And user verifies that title of the search item contains "Java"
    */
-  @Test  //(description="search for Java book on amazon")
+ /* @Test  //(description="search for Java book on amazon")
   public void amazonSearchTest() {
     driver.get("https://www.amazon.com");
     //there is a chance that item is not visible
@@ -91,4 +91,5 @@ String productTitleString=productTitle.getText();
     //close browser and destroy webdriver object
     driver.quit();
   }
+ */
 }

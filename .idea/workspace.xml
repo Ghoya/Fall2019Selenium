@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cce05ca-7d2f-4458-be0a-c48527efd265" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day7/classNoteMarch11" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day8/PracticeTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/Practise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/vytrack/fleet/VehiclesPageTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/vytrack/login/LoginPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/tests/Testing_March14" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/Testing_March14" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/tests/day8/BasicTestNGTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day8/BasicTestNGTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/tests/day8/PracticeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day8/PracticeTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/tests/day8/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day8/SearchTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/tests/day8/UnitTestPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day8/UnitTestPractice.java" afterDir="false" />
     </list>
@@ -58,22 +58,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CssSelector">
-    <configuration name="Alerts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day6.Alerts" />
-      <module name="Fall2019Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.automation.tests.day6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CssSelector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day7.CssSelector" />
+  <component name="RunManager" selected="TestNG.BasicTestNGTest">
+    <configuration name="BasicTestNGTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Fall2019Selenium" />
       <extension name="coverage">
         <pattern>
@@ -81,25 +67,16 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.automation.tests.day8" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day8.BasicTestNGTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Xpath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day6.Xpath" />
-      <module name="Fall2019Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.automation.tests.day6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="officeHour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day7.officeHour" />
+    <configuration name="BasicTestNGTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Fall2019Selenium" />
       <extension name="coverage">
         <pattern>
@@ -107,30 +84,76 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.automation.tests.day8" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day8.BasicTestNGTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="selectByValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day6.selectByValue" />
+    <configuration name="Practise" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Fall2019Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.automation.tests.day6.*" />
+          <option name="PATTERN" value="com.automation.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.automation.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.tests.Practise" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Practise.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Fall2019Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.automation.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.tests.Practise" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Practise.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Fall2019Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.automation.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.tests.Practise" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CssSelector" />
-        <item itemvalue="Application.officeHour" />
-        <item itemvalue="Application.Xpath" />
-        <item itemvalue="Application.Alerts" />
-        <item itemvalue="Application.selectByValue" />
+        <item itemvalue="TestNG.BasicTestNGTest" />
+        <item itemvalue="TestNG.BasicTestNGTest.test1" />
+        <item itemvalue="TestNG.Practise" />
+        <item itemvalue="TestNG.Practise.test1" />
+        <item itemvalue="TestNG.Practise.test" />
       </list>
     </recent_temporary>
   </component>
@@ -320,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584211035841</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="created basic navigation class">
+      <created>1584284910380</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1584284910380</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
