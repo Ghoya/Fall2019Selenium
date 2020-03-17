@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cce05ca-7d2f-4458-be0a-c48527efd265" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/tests/day8/BasicTestNGTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day8/BasicTestNGTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/tests/Practise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/Practise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/tests/day8/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day8/SearchTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.BasicTestNGTest">
+  <component name="RunManager" selected="TestNG.Practise.googleSearchTest">
     <configuration name="BasicTestNGTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Fall2019Selenium" />
       <extension name="coverage">
@@ -105,7 +107,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practise.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Practise.googleSearchTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Fall2019Selenium" />
       <extension name="coverage">
         <pattern>
@@ -115,7 +117,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.automation.tests" />
       <option name="MAIN_CLASS_NAME" value="com.automation.tests.Practise" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="METHOD_NAME" value="googleSearchTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -143,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Practise.googleSearchTest" />
+        <item itemvalue="TestNG.Practise" />
         <item itemvalue="TestNG.BasicTestNGTest" />
         <item itemvalue="TestNG.BasicTestNGTest.test1" />
-        <item itemvalue="TestNG.Practise" />
         <item itemvalue="TestNG.Practise.test1" />
-        <item itemvalue="TestNG.Practise.test" />
       </list>
     </recent_temporary>
   </component>
@@ -351,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584405468691</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="created basic navigation class">
+      <created>1584406538200</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1584406538200</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
