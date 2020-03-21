@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cce05ca-7d2f-4458-be0a-c48527efd265" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day11/JSExecutor2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day11/classNoteMarch21" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day8/classNoteMarch14" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/vytrack/activities/CalendarEventsPageTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/vytrack/activities/CallsPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/vytrack/classNoteMarch15" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/tests/Practise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/Practise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/tests/day8/PracticeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day8/PracticeTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/tests/day8/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day8/SearchTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/tests/vytrack/login/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/vytrack/login/LoginPageTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,8 +61,42 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Practise.googleSearchTest">
-    <configuration name="BasicTestNGTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.PracticeTests.loginTest">
+    <configuration name="CalendarEventsPageTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Fall2019Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.tests.vytrack.activities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.automation.tests.vytrack.activities" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.tests.vytrack.activities.CalendarEventsPageTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CallsPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Fall2019Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.tests.vytrack.activities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.automation.tests.vytrack.activities" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.tests.vytrack.activities.CallsPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PracticeTests.CheckBoxesTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Fall2019Selenium" />
       <extension name="coverage">
         <pattern>
@@ -64,15 +105,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.automation.tests.day8" />
-      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day8.BasicTestNGTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day8.PracticeTests" />
+      <option name="METHOD_NAME" value="CheckBoxesTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BasicTestNGTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PracticeTests.forgotPasswordTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Fall2019Selenium" />
       <extension name="coverage">
         <pattern>
@@ -81,8 +123,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.automation.tests.day8" />
-      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day8.BasicTestNGTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day8.PracticeTests" />
+      <option name="METHOD_NAME" value="forgotPasswordTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -90,52 +132,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practise" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PracticeTests.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Fall2019Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.automation.tests.*" />
+          <option name="PATTERN" value="com.automation.tests.day8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.automation.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.automation.tests.Practise" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Practise.googleSearchTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Fall2019Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.automation.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.automation.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.automation.tests.Practise" />
-      <option name="METHOD_NAME" value="googleSearchTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Practise.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Fall2019Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.automation.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.automation.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.automation.tests.Practise" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="com.automation.tests.day8" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day8.PracticeTests" />
+      <option name="METHOD_NAME" value="loginTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -145,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Practise.googleSearchTest" />
-        <item itemvalue="TestNG.Practise" />
-        <item itemvalue="TestNG.BasicTestNGTest" />
-        <item itemvalue="TestNG.BasicTestNGTest.test1" />
-        <item itemvalue="TestNG.Practise.test1" />
+        <item itemvalue="TestNG.PracticeTests.loginTest" />
+        <item itemvalue="TestNG.PracticeTests.CheckBoxesTest" />
+        <item itemvalue="TestNG.PracticeTests.forgotPasswordTest" />
+        <item itemvalue="TestNG.CalendarEventsPageTests" />
+        <item itemvalue="TestNG.CallsPageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -360,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584406538200</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="created basic navigation class">
+      <created>1584415545600</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1584415545600</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

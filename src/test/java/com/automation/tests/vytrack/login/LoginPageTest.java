@@ -51,6 +51,7 @@ public class LoginPageTest {
     public void tearDown() {
         if (driver != null) {
             driver.quit();
+            driver=null;
         }
     }
 }

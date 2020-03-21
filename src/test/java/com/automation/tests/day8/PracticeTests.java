@@ -2,16 +2,17 @@ package com.automation.tests.day8;
 
 import com.automation.utilities.BrowserUtils;
 import com.automation.utilities.DriverFactory;
-import org.junit.After;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 
 import java.util.List;
 /**
@@ -28,68 +29,79 @@ import java.util.List;
  */
 public class PracticeTests {
     private WebDriver driver;
-// we put @Test annotation to make methods executable as tests
- /*   @Test//create a test called loginTest
-    public void logInTest() {
+    /**
+     * We put @Test annotation to make methods executable as tests
+     */
+    @Test//create a test called loginTest
+    public void loginTest(){
         //go to "Form Authentication" page
         driver.findElement(By.linkText("Form Authentication")).click();
         BrowserUtils.wait(3);
-     driver.findElement(By.name("username")).sendKeys("tomsmith");
+        driver.findElement(By.name("username")).sendKeys("tomsmith");
         driver.findElement(By.name("password")).sendKeys("SuperSecretPassword", Keys.ENTER);
         BrowserUtils.wait(3);
-  String expected="Welcome to the Secure Area. When you are done click logout below.";
-String actual=driver.findElement(By.className("subheader")).getText();
+        String expected = "Welcome to the Secure Area. When you are done click logout below.";
+        String actual = driver.findElement(By.className("subheader")).getText();
         //if assertion fails - it will throw exception and message will be printed
         //3 parameters: (expected, actual, "message in case of error")
-        Assert.assertEquals(actual,expected,"Sub-header message is not matching ");
-
+        Assert.assertEquals(actual, expected, "Sub-header message is not matching!");
     }
-
+/*
+Given user is on the practice landing page
+When user navigates to "Forgot password " page
+Then user enters his email
+And clicks "Retrieve password" botton
+Then user verifies that message "Your e-mail's been sent!"
+ */
     @Test
     public void forgotPasswordTest() {
         driver.findElement(By.linkText("Forgot Password")).click();
         BrowserUtils.wait(3);
-driver.findElement(By.className("email")).sendKeys("cybertek@gmail.com",Keys.ENTER);
+driver.findElement(By.name("email")).sendKeys("cybertek@gmail.com",Keys.ENTER);
         BrowserUtils.wait(3);
     String actual=driver.findElement(By.name("confirmation_message")).getText();
-
+String expected="Your e-mail's been sent!";
+Assert.assertEquals(expected,actual,"final confermation message not match");
+        BrowserUtils.wait(3);
     }
-
+    /**
+     * TASK for 5 minutes
+     * Given user is on the practice landing page
+     * When user navigates to "Checkboxes" page
+     * And clicks on checkbox #1
+     * Then user verifies that checkbox #1 is selected
+     */
     @Test
-    public void CheckBoxesTest () {
+    public void CheckBoxesTest1 () {
      driver.findElement(By.linkText("Checkboxes")).click();;
         BrowserUtils.wait(3);
-   //     List<WebElement> checkBoxes= driver.findElement(By.tagName("input"));
+        //locator for specific checkbox, xpath: //input[1], cssSelector: input:nth-of-type(1)
+        //  //input[@type="checkbox"][1]
+        //collect all checkboxes
+       List<WebElement> checkBoxes= driver.findElements(By.tagName("input"));
         BrowserUtils.wait(3);
-   ///     checkBoxes.get(0).click();
-  //      Assert.assertTrue(checkBoxes.get(0).isSelected(),"checkbox 1 is not slected");
-
+       checkBoxes.get(0).click();// to click on 1st chechbox
+       Assert.assertTrue( checkBoxes.get(0).isSelected(),"checkbox 1 is not slected");
+        BrowserUtils.wait(3);
     }
-
-    @Before
-    public void setUp()  {
-
-        WebDriver driver= DriverFactory.createADriver("chrome");
-//INTERVIEW QUESTION: HOW TO HANDLE SSL ISSUES IN SELENIUM?
+    @BeforeMethod
+    public void setup(){
+       WebDriverManager.chromedriver().version("79").setup();
+        //INTERVIEW QUESTION: HOW TO HANDLE SSL ISSUES IN SELENIUM?
         //ChromeOptions - use to customize browser for tests
-        ChromeOptions chromeOptions=new ChromeOptions();
+        ChromeOptions chromeOptions = new ChromeOptions();
         //to ignore "Your connection is not private issue"
         chromeOptions.setAcceptInsecureCerts(true);
         //provide chromeOptions object into chromedriver constructor
-        driver=new ChromeDriver(chromeOptions);
+        driver = new ChromeDriver(chromeOptions);
         driver.get("http://practice.cybertekschool.com/");
-       driver.manage().window().maximize();;
+        driver.manage().window().maximize();
+    }
+
+    @AfterMethod
+    public void teardown(){
+        driver.quit();
     }
 
 
-    @After
-    public void tearDown() {
-        driver.close();
-    }
-
-    public static void main(String[] args) {
-
-
-    }
-*/
 }
