@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cce05ca-7d2f-4458-be0a-c48527efd265" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day11/JSExecutor2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day11/classNoteMarch21" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day8/classNoteMarch14" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/vytrack/activities/CalendarEventsPageTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/vytrack/activities/CallsPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/vytrack/classNoteMarch15" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/tests/Practise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/Practise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/tests/day8/PracticeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day8/PracticeTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/tests/day8/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day8/SearchTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/tests/vytrack/login/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/vytrack/login/LoginPageTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,17 +52,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.PracticeTests.loginTest">
-    <configuration name="CalendarEventsPageTests" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.LoginPageTest">
+    <configuration name="LoginPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Fall2019Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.automation.tests.vytrack.activities.*" />
+          <option name="PATTERN" value="com.automation.tests.vytrack.login.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.automation.tests.vytrack.activities" />
-      <option name="MAIN_CLASS_NAME" value="com.automation.tests.vytrack.activities.CalendarEventsPageTests" />
+      <option name="PACKAGE_NAME" value="com.automation.tests.vytrack.login" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.tests.vytrack.login.LoginPageTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -79,17 +70,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CallsPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginPageTest.invalidUserNameTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Fall2019Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.automation.tests.vytrack.activities.*" />
+          <option name="PATTERN" value="com.automation.tests.vytrack.login.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.automation.tests.vytrack.activities" />
-      <option name="MAIN_CLASS_NAME" value="com.automation.tests.vytrack.activities.CallsPageTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="com.automation.tests.vytrack.login" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.tests.vytrack.login.LoginPageTest" />
+      <option name="METHOD_NAME" value="invalidUserNameTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTest.logInAsStoreManager" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Fall2019Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.tests.vytrack.login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.automation.tests.vytrack.login" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.tests.vytrack.login.LoginPageTest" />
+      <option name="METHOD_NAME" value="logInAsStoreManager" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -107,24 +117,6 @@
       <option name="PACKAGE_NAME" value="com.automation.tests.day8" />
       <option name="MAIN_CLASS_NAME" value="com.automation.tests.day8.PracticeTests" />
       <option name="METHOD_NAME" value="CheckBoxesTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PracticeTests.forgotPasswordTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Fall2019Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.automation.tests.day8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.automation.tests.day8" />
-      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day8.PracticeTests" />
-      <option name="METHOD_NAME" value="forgotPasswordTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -152,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginPageTest" />
+        <item itemvalue="TestNG.LoginPageTest.logInAsStoreManager" />
+        <item itemvalue="TestNG.LoginPageTest.invalidUserNameTest" />
         <item itemvalue="TestNG.PracticeTests.loginTest" />
         <item itemvalue="TestNG.PracticeTests.CheckBoxesTest" />
-        <item itemvalue="TestNG.PracticeTests.forgotPasswordTest" />
-        <item itemvalue="TestNG.CalendarEventsPageTests" />
-        <item itemvalue="TestNG.CallsPageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -374,7 +366,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584415545600</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="created basic navigation class">
+      <created>1584826117189</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1584826117189</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
