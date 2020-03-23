@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3cce05ca-7d2f-4458-be0a-c48527efd265" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/tests/vytrack/login/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/vytrack/login/LoginPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/tests/vytrack/fleet/VehiclesPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/vytrack/fleet/VehiclesPageTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +52,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LoginPageTest">
+  <component name="RunManager" selected="TestNG.VehiclesPageTests.verifyPageNumber">
     <configuration name="LoginPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Fall2019Selenium" />
       <extension name="coverage">
@@ -106,17 +106,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracticeTests.CheckBoxesTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="VehiclesPageTests.verifyPageNumber" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Fall2019Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.automation.tests.day8.*" />
+          <option name="PATTERN" value="com.automation.tests.vytrack.fleet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.automation.tests.day8" />
-      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day8.PracticeTests" />
-      <option name="METHOD_NAME" value="CheckBoxesTest" />
+      <option name="PACKAGE_NAME" value="com.automation.tests.vytrack.fleet" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.tests.vytrack.fleet.VehiclesPageTests" />
+      <option name="METHOD_NAME" value="verifyPageNumber" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -124,17 +124,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracticeTests.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="VehiclesPageTests.verifyPageSubTitle" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Fall2019Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.automation.tests.day8.*" />
+          <option name="PATTERN" value="com.automation.tests.vytrack.fleet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.automation.tests.day8" />
-      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day8.PracticeTests" />
-      <option name="METHOD_NAME" value="loginTest" />
+      <option name="PACKAGE_NAME" value="com.automation.tests.vytrack.fleet" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.tests.vytrack.fleet.VehiclesPageTests" />
+      <option name="METHOD_NAME" value="verifyPageSubTitle" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -144,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.VehiclesPageTests.verifyPageNumber" />
+        <item itemvalue="TestNG.VehiclesPageTests.verifyPageSubTitle" />
         <item itemvalue="TestNG.LoginPageTest" />
         <item itemvalue="TestNG.LoginPageTest.logInAsStoreManager" />
         <item itemvalue="TestNG.LoginPageTest.invalidUserNameTest" />
-        <item itemvalue="TestNG.PracticeTests.loginTest" />
-        <item itemvalue="TestNG.PracticeTests.CheckBoxesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -373,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584826117189</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="created basic navigation class">
+      <created>1584832559866</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1584832559866</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
