@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cce05ca-7d2f-4458-be0a-c48527efd265" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/Practices/RegistrationForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/tests/Practices/RegistrationForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/Practices/RegistrationForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/tests/vytrack/activities/CalendarEventsPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/vytrack/activities/CalendarEventsPageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/tests/vytrack/activities/CallsPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/vytrack/activities/CallsPageTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,18 +54,54 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.RegistrationForm.verifyAlphabeticLettersOnlyTest">
-    <configuration name="RegistrationForm.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CalendarEventsPageTests.VerifyDefaultValues">
+    <configuration name="CalendarEventsPageTests.VerifyDefaultValues" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Fall2019Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.automation.tests.Practices.*" />
+          <option name="PATTERN" value="com.automation.tests.vytrack.activities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.automation.tests.Practices" />
-      <option name="MAIN_CLASS_NAME" value="com.automation.tests.Practices.RegistrationForm" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="com.automation.tests.vytrack.activities" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.tests.vytrack.activities.CalendarEventsPageTests" />
+      <option name="METHOD_NAME" value="VerifyDefaultValues" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalendarEventsPageTests.verifyCreateButton" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Fall2019Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.tests.vytrack.activities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.automation.tests.vytrack.activities" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.tests.vytrack.activities.CalendarEventsPageTests" />
+      <option name="METHOD_NAME" value="verifyCreateButton" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CallsPageTest.verifyLogCallButton" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Fall2019Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.tests.vytrack.activities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.automation.tests.vytrack.activities" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.tests.vytrack.activities.CallsPageTest" />
+      <option name="METHOD_NAME" value="verifyLogCallButton" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -107,49 +145,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VehiclesPageTests.verifyPageNumber" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Fall2019Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.automation.tests.vytrack.fleet.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.automation.tests.vytrack.fleet" />
-      <option name="MAIN_CLASS_NAME" value="com.automation.tests.vytrack.fleet.VehiclesPageTests" />
-      <option name="METHOD_NAME" value="verifyPageNumber" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VehiclesPageTests.verifyPageSubTitle" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Fall2019Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.automation.tests.vytrack.fleet.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.automation.tests.vytrack.fleet" />
-      <option name="MAIN_CLASS_NAME" value="com.automation.tests.vytrack.fleet.VehiclesPageTests" />
-      <option name="METHOD_NAME" value="verifyPageSubTitle" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CalendarEventsPageTests.VerifyDefaultValues" />
+        <item itemvalue="TestNG.CalendarEventsPageTests.verifyCreateButton" />
+        <item itemvalue="TestNG.CallsPageTest.verifyLogCallButton" />
         <item itemvalue="TestNG.RegistrationForm.verifyAlphabeticLettersOnlyTest" />
         <item itemvalue="TestNG.RegistrationForm.verifyFirstNameLengthTest" />
-        <item itemvalue="TestNG.RegistrationForm.test1" />
-        <item itemvalue="TestNG.VehiclesPageTests.verifyPageNumber" />
-        <item itemvalue="TestNG.VehiclesPageTests.verifyPageSubTitle" />
       </list>
     </recent_temporary>
   </component>
@@ -388,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584995607245</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="created basic navigation class">
+      <created>1585004108471</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1585004108471</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

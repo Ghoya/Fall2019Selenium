@@ -5,7 +5,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -33,19 +32,17 @@ public class CallsPageTest {
       driver= DriverFactory.createADriver("chrome");
 driver.get("https://qa2.vytrack.com/user/login");
 driver.manage().window().maximize();
-        actions = new Actions(driver);
-        BrowserUtils.wait(3);
+BrowserUtils.wait(5);
         driver.findElement(usernameBy).sendKeys(managerUsername);
         driver.findElement(passwordBy).sendKeys(managerPassword, Keys.ENTER);
-        BrowserUtils.wait(3);
+        BrowserUtils.wait(5);
 //hover over Activities
+        actions = new Actions(driver);
         actions.moveToElement(driver.findElement(activitiesBy)).perform();
-        BrowserUtils.wait(2);
+        BrowserUtils.wait(5);
         driver.findElement(By.linkText("Calls")).click();
         BrowserUtils.wait(5);
-
     }
-
     /**
      * Scenario: Verify for store manager
      *

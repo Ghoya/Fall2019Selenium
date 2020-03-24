@@ -15,6 +15,8 @@ import org.testng.annotations.Test;
 public class RegistrationForm {
   private String URL="http://practice.cybertekschool.com/registration_form";
 private WebDriver driver;
+    // p tag name of success message
+    // one xpath for all inputs: //label[text()='Label name']/..//input
 //private String firstNameLocator="firstname";
 private By firstNameBy=By.name("firstname");
 private By lastNameBy=By.name("lastname");
