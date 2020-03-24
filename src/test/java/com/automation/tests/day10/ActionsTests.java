@@ -68,6 +68,21 @@ actions.moveToElement(enabled).pause(1000).
         moveToElement(download).pause(1000).
         moveToElement(pdf).pause(1000).click().build().perform();
     }
+
+    @Test
+    public void DragAndDropsTest() {
+driver.get("https://demos.telerik.com/kendo-ui/dragdrop/index");
+     BrowserUtils.wait(5);
+   driver.findElement(By.xpath("//button[text()='Accept Cookies']")).click();
+        BrowserUtils.wait(5);
+   WebElement eath=driver.findElement(By.id("droptarget"));
+        WebElement moon=driver.findElement(By.id("draggable"));
+actions.dragAndDrop(moon,eath).perform();
+String expected="You did great!";
+String actual=eath.getText();
+Assert.assertEquals(expected,actual);
+    }
+
     @BeforeMethod
     public void setUp() {
         driver = DriverFactory.createADriver("chrome");
