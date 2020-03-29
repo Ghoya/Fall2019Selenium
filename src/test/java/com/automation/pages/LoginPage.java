@@ -16,11 +16,17 @@ public WebElement password;
 public WebElement login;
 @FindBy(linkText = "Forgot your password?")
 public WebElement forgotPassword;
-
+@FindBy(css="[class='alert alert-error']")
+private WebElement warningMessage;
     public LoginPage(){
 
         PageFactory.initElements(Driver.getDriver(),this);
     }
+
+    public String getWarningMessageText() {
+        return warningMessage.getText();
+    }
+
 public void login(String userNameValue, String passwordValue){
    userName.sendKeys(userNameValue);
 password.sendKeys(passwordValue);

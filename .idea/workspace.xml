@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cce05ca-7d2f-4458-be0a-c48527efd265" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/vytrack/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/vytrack/login/NewLoginTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/pages/AbstractPageBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/pages/activities/CalendarEventPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/pages/fleet/VehiclesPages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/vytrack/fleet/NewVehiclesTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/tests/vytrack/login/NewLoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/vytrack/login/NewLoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/utilities/BrowserUtils.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.DriverTest.googleTest">
+  <component name="RunManager" selected="TestNG.NewLoginTests.verifyPageTitle">
     <configuration name="ConfigurationReaderTest.readProperties" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Fall2019Selenium" />
       <extension name="coverage">
@@ -91,17 +96,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JSExecutor" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NewLoginTests.verifyPageTitle" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Fall2019Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.automation.tests.day10.*" />
+          <option name="PATTERN" value="com.automation.tests.vytrack.login.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.automation.tests.day10" />
-      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day10.JSExecutor" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="com.automation.tests.vytrack.login" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.tests.vytrack.login.NewLoginTests" />
+      <option name="METHOD_NAME" value="verifyPageTitle" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -145,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.NewLoginTests.verifyPageTitle" />
         <item itemvalue="TestNG.DriverTest.googleTest" />
         <item itemvalue="TestNG.ConfigurationReaderTest.readProperties" />
         <item itemvalue="TestNG.SystemProperties.testName" />
         <item itemvalue="TestNG.SystemProperties" />
-        <item itemvalue="TestNG.JSExecutor" />
       </list>
     </recent_temporary>
   </component>
@@ -423,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585101861213</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="created basic navigation class">
+      <created>1585417232519</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1585417232519</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
